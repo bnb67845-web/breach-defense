@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "game",
+  "account_id": "a101deba00a84c4690f7e986baff1735",
+  "compatibility_date": "2026-11-12",
+  "assets": {
+    "directory": "./public"
+  },
+  "routes": [
+    {
+      "pattern": "game.6.cooking",
+      "custom_domain": true
+    }
+  ]
+}
